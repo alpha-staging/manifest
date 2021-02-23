@@ -4,6 +4,10 @@
   <remote  name="styx"
            fetch="https://github.com/StyxProject"
            revision="R" />
+  
+  <remote  name="alpha-staging"
+           fetch="https://github.com/alpha-staging"
+           revision="R" />
 
   <remote  name="github"
            fetch="https://github.com/" />
@@ -79,7 +83,7 @@
   <project path="packages/services/Telecomm" name="packages_services_Telecomm" remote="styx"/> 
 
   <!-- Vendor -->
-  <project path="vendor/styx" name="vendor_styx" remote="styx" />
+  <project path="vendor/styx" name="vendor_styx" remote="alpha-staging" />
   <project path="vendor/styx-ui" name="vendor_styx-ui" remote="styx" />
   <project path="vendor/google/gms" name="StatiXOS/android_vendor_google_gms" remote="gitlab" revision="11"/>
   <project path="vendor/google/pixel" name="StatiXOS/android_vendor_google_pixel" remote="github" revision="11" />
